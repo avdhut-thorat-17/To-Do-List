@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5ab0c;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #cceec7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-right: 10%;
+    border: 1px solid #666666;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3173b9;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.deleteTask{
+    height: 50px;
+    width: 200px;;
+}
+
+
+button:hover {
+    background-color: #004c9e;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
